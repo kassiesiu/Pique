@@ -1,0 +1,9 @@
+- Make mobile friendly
+- https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c
+- Current page color change
+- fix footer
+- add contact page
+- box around givens
+- pls nav dark
+- add button on introduction page leading to physics
+

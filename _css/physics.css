@@ -1,0 +1,102 @@
+/*#57cff2 - blue
+#f4ba5f - yellow
+#636363 - grey
+#1593de - dark blue
+*/
+
+.container {
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.question {
+    background-color: #42B8D1;
+    font-size: 3em;
+    font-family: "Lato";
+    font-weight: 300;
+    padding: 0 10%;
+    height: 100%;
+    line-height: normal;
+}
+
+#question {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#physicsintro {
+    padding: 5%;
+    color: #636363;
+    background-color: #F6F6F8;
+    height: auto;
+    padding: 140 0;
+}
+
+.video {
+    height: auto;
+    padding: 50px;
+    display: inline-block;
+}
+
+.givens {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin-top: 50px;
+    width: 25%;
+    text-align: left;
+}
+
+.force {
+    background-color: #eaeaea;
+    height: auto;
+    padding: 100px;
+    color: #636363;
+    padding: 150 0;
+}
+
+.forcetext {
+    text-align: left;
+    width: 40%;
+    display: inline-block;
+}
+
+.force img {
+    display: inline-block;
+    padding-left: 100px;
+}
+
+.parabolic {
+    background-color: #c5c5c5;
+    height: auto;
+    padding: 100px;
+}
+
+.paratext {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.velocity {
+    padding: 100px;
+    background-color: #1b5d79;
+}
+
+.energy {
+    height: auto;
+    padding: 100px;
+}
+
+.energytext {
+    width: 51%;
+    display: inline-block;
+}
+
+@media only screen and (min-device-width : 200px) and (max-width : 1020px)  {
+    .givens {
+        width: 40%;
+        margin-top: -10px;
+    }
+}

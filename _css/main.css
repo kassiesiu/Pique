@@ -1,0 +1,224 @@
+/*#57cff2 - blue
+#f4ba5f - yellow
+#636363 - grey
+#1593de - dark blue
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+    background-color: #42B8D1;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
+b {
+    font-weight: 700;
+    color: #f4ba5f;
+}
+
+h1 {
+    color: #fff;
+    line-height: 1.2em;
+    font-weight: 300;
+}
+
+.black {
+    color: #636363;
+}
+
+
+h3
+
+/* formulas tag */ {
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    min-width: 800px;
+    z-index: 1;
+    clear: both;
+    text-transform: uppercase;
+    position: fixed;
+    transition-duration: 0.5s;
+}
+
+.logo {
+    background-image: url("../logo-2.png");
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 27px 27px 27px 120px;
+}
+
+.nav {
+    text-align: right;
+    position: relative;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: .7em;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.nav a:hover {
+    color: #f4ba5f;
+}
+
+.introduction {
+    height: 100%;
+    background-color: #42B8D1;
+}
+
+.introcontent {
+    width: 400px;
+    display: inline-block;
+    margin-top: 20%;
+    padding: 0px 15px;
+}
+
+.introduction img {
+    padding: 0px 15px;
+    width: 350px;
+}
+
+button {
+    width: auto;
+    text-align: center;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: #47A8C4;
+    transition: 0.5s;
+}
+
+.arrow-down {
+	width: 50px;
+	height: 50px;
+	background-image: url(../arrow.svg);
+    background-size: contain;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    margin-left: -25px;
+
+}
+
+/* Contact Form */
+
+#contact {
+    height: 100%;
+    line-height: 2em;
+    background-color: #449cbb;
+}
+
+.contacttext {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+form table {
+    width: 375px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form th {
+    width: 85px;
+    padding: 8px;
+}
+
+form td {
+    padding: 15px 15px;
+}
+
+form td select, form td input,form td textarea {
+   width: 100%;
+}
+
+form input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #f4ba5f;
+    background: #f4ba5f;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
+
+.animation {
+    height: calc(100% - 118px);
+    background-color: #42B8D1;
+}
+
+
+.animationtext {
+    font-size: 5em;
+    font-weight: 300;
+    text-align: center;
+    /* delete this after animation is done*/
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer {
+    background-color: #636363;
+    height: auto;
+    text-align: right;
+    padding: 40px;
+    position: relative;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: inline;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer a:visited {
+    color: white;
+}
